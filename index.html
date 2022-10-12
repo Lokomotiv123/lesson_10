@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_10</title>
+</head>
+<body>
+	<!-- БЕМ блок  -->
+	<header class="header"></header>
+	<!-- БЕМ блок  -->
+	<main class="content">
+		<!-- БЕМ елемент БЕМ блоку content та БЕМ блок. Це БЕМ МІКС-->
+		<div class="content__artical artical">
+			<!-- БЕМ елемент БЕМ блоку artical -->
+			<div class="artical__container">
+				<!-- БЕМ елемент БЕМ блоку artical та одночасно БЕМ блок title. Це БЕМ МІКС. Для того, щоб перевикористати даний блок в інших частинах макету  -->
+				<h1 class="artical__title title">
+					HR statistics: job search,  interviews, hiring and recruiting
+				</h1>
+				<!-- БЕМ елемент БЕМ блоку artical -->
+				<div class="artical__picture">
+					<!-- БЕМ елемент БЕМ блоку artical -->
+					<img src="img/image.jpg" alt="black glasses neer the keybord" class="artical__img">
+				</div>
+				<!-- БЕМ елемент БЕМ блоку artical та БЕМ блок. БЕМ МІКС -->
+				<div class="artical__main-text main-text">
+					<!-- БЕМ елемент БЕМ блоку main-text  -->
+					<p class="main-text__paragraph">
+						Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio. Interdum aenean sit malesuada ornare sed gravida rhoncus, congue. Purus auctor nullam diam quis est hendrerit ac euismod. 
+					</p>
+				</div>
+				<!-- БЕМ елемент БЕМ блоку artical та БЕМ блок. БЕМ мікс -->
+				<div class="artical__text text">
+					<!-- БЕМ елемент БЕМ блоку text -->
+					<p class="text__first">
+						At facilisi sapien posuere eget nunc senectus proin nullam. Tortor senectus in et sagittis, vitae diam cras dignissim. Varius adipiscing eget diam nisi. Orci, consectetur vulputate metus ornare pharetra, neque, fermentum. Vel nec rhoncus, non nunc, neque in massa. Feugiat leo nam nisl lacinia amet, odio. Mi varius viverra risus vel.
+					</p>
+               <!-- БЕМ елемент БЕМ блоку text -->
+					<p class="text__second">
+						Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci interdum feugiat lectus libero duis. Nisl massa, elementum varius sit. Nunc felis, porttitor aliquam urna, accumsan et sed. Aliquet non sed duis diam vehicula rhoncus. In dictum nullam tincidunt semper pellentesque purus morbi sed. Ut aliquet velit pharetra, nisi nunc, non.
+					</p>
+				   <!-- БЕМ елемент БЕМ блоку artical -->
+					<blockquote class="artical__quote">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus  facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in tot euismod vulputate etiam eros. Vel accumsan at elit neque, ipsum.
+					</blockquote>
+				   <!-- БЕМ елемент БЕМ блоку text -->
+					<p class="text__third">
+						Mauris amet arcu nisl vel dictum tellus. Sed rhoncus, ut sed id ut erat mattis. Vitae mus blandit in neque amet non fringilla blandit:
+					</p>
+					<!-- БЕМ елемент. В макеті повторюєть декілька разів -->
+					<ul class="list">
+						<!-- БЕМ елемент БЕМ блоку list -->
+						<li class="list__item">
+							A fermentum in morbi pretium aliquam adipiscing donec tempus.
+						</li>
+						<!-- БЕМ елемент БЕМ блоку list -->
+						<li class="list__item">
+							Vulputate placerat amet pulvinar lorem nisl.
+						</li>
+						<!-- БЕМ елемент БЕМ блоку list -->
+						<li class="list__item">
+							Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+						</li>
+						<!-- БЕМ елемент БЕМ блоку list -->
+						<li class="list__item">
+							Etiam duis lobortis in fames ultrices commodo nibh.
+						</li>
+					</ul>
+					<!-- БЕМ елемент БЕМ блоку text -->
+					<p class="text__last">
+						Enim, vel massa odio diam. Blandit massa gravida feugiat elementum id nec sed leo. Nisi in ornare lectus eget. Urna, risus, consectetur volutpat lorem purus. Velit aliquet nibh vitae maecenas. Consectetur neque ut aliquam eros, purus enim dignissim aenean vitae. Ultrices fames augue mattis tortor est justo, pharetra nibh risus. Facilisi at porttitor volutpat natoque proin amet, nulla. Vivamus ut lobortis sagittis curabitur tellus convallis eget netus vitae.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- БЕМ елемент БЕМ блоку content та БЕМ блок. Це БЕМ МІКС-->
+		<div class="content__about-us about-us">
+			<!-- БЕМ елемент БЕМ блоку about-us -->
+			<div class="about-us__container">
+				<!-- БЕМ елемент БЕМ блоку about-us -->
+				<div class="about-us__why-us">
+					<!-- БЕМ елемент БЕМ блоку about-us -->
+					<div class="about-us__pic">
+						<img src="img/image_girl_headphone.jpg" alt="girl with headphone" class="about-us__img">
+					</div>
+					<!-- БЕМ блок subtitle з БЕМ модифікатором subtitle_place -->
+					<h4 class="subtitle subtitle_place">
+						Who we are
+					</h4>
+					<!-- БЕМ блок under-subtitle  з БЕМ модифікатором under-subtitle_place -->
+					<h2 class="under-subtitle under-subtitle_place">
+						Why Createx?
+					</h2>
+					<!-- БЕМ елемент БЕМ блоку about-us -->
+					<div class="about-us__list">
+						<!-- БЕМ блок list з БЕМ модифікатором  -->
+						<ul class="list list_place">
+							<!-- БЕМ елемент БЕМ блоку list -->
+							<li class="list__item">
+								A fermentum in morbi pretium aliquam adipiscing donec tempus.
+							</li>
+							<!-- БЕМ елемент БЕМ блоку list -->
+							<li class="list__item">
+								Vulputate placerat amet pulvinar lorem nisl.
+							</li>
+							<!-- БЕМ елемент БЕМ блоку list -->
+							<li class="list__item">
+								Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.
+							</li>
+							<!-- БЕМ елемент БЕМ блоку list -->
+							<li class="list__item">
+								Etiam duis lobortis in fames ultrices commodo nibh.
+							</li>
+							<li class="list__item">
+								Tincidunt sagittis neque sem ac eget.
+							</li>
+							<!-- БЕМ елемент БЕМ блоку list -->
+							<li class="list__item">
+								Ultricies amet justo et eget quisque purus vulputate dapibus tortor.
+							</li>
+						</ul>
+					</div>
+					<!-- БЕМ блок button з БЕМ модифікатором  -->
+					<a href="#" class="button button_red">More about us</a>
+					
+				</div>
+				<!-- БЕМ елемент БЕМ блоку about-us -->
+				<div class="about-us__courses">
+					<!-- БЕМ блок subtitle з БЕМ модифікатором subtitle_place -->
+					<h4 class="subtitle subtitle_place">
+						Ready to learn?
+					</h4>
+					<!-- БЕМ блок under-subtitle  з БЕМ модифікатором -->
+					<h2 class="under-subtitle under-subtitle_place">
+						Featured Courses
+					</h2>
+					<!-- БЕМ блок button-white  з БЕМ модифікатором button-white_color -->
+					<a href="#" class="button-white button-white_color">View all courses</a>
+					
+					<!-- БЕМ елемент БЕМ блоку about-us -->
+					<div class="about-us__items">
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-jerome block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image1.jpg" alt="by Jerome Bell" class="block__jerome-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_green">Marketing</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								The Ultimate Google Ads Training Course
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$100
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Jerome Bell
+							</div>
+
+						</div>
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-marvin block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image4.jpg" alt="by Marvin McKinney" class="block__marvin-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_blue">Management</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								Prduct Management Fundamentals
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$480
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Marvin McKinney
+							</div>
+
+						</div>
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-alexander block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image2.jpg" alt="by Leslie Alexander Li" class="block__alexander-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_orange">HR & Recruting</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								HR  Management and Analytics
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$200
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Leslie Alexander Li
+							</div>
+
+						</div>
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-kristin block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image5.jpg" alt="by Kristin Watson" class="block__kristin-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_green">Marketing</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								Brand Management & PR Communications
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$530
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Kristin Watson
+							</div>
+
+						</div>
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-dianne block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image3.jpg" alt="by Dianne Russell" class="block__dianne-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_blue">Management</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								Business Development Management
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$400
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Dianne Russell
+							</div>
+
+						</div>
+						<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок block це БЕМ Мікс -->
+						<div class="about-us__item-guy block">
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__pic">
+								<img src="img/image6.jpg" alt="by Guy Hawkins" class="block__guy-picture">
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block з БЕМ модифікатором зміни кольору-->
+							<a target="_blank" href="#" class="block__button block__button_red">Design</a>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<h4 class="block__title">
+								Graphic Design Basic
+							</h4>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__price">
+								$500
+							</div>
+							<!-- БЕМ елемент БЕМ блоку block -->
+							<div class="block__treineer">
+								by Guy Hawkins
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок benefits. Це БЕМ Мікс -->
+				<div class="about-us__benefits benefits">
+					<!-- БЕМ блок subtitle з БЕМ модифікатором місця розміщення -->
+					<h4 class="subtitle subtitle_place">
+						Our benefits
+					</h4>
+					<!-- БЕМ блок under-subtitle з БЕМ модифікатором місця розміщення -->
+					<h2 class="under-subtitle under-subtitle_place">
+						That’s how we do it
+					</h2>
+					<!-- БЕМ елемент БЕМ блоку about-us та одночасно БЕМ блок links. Це БЕМ Мікс -->
+					<div class="about-us__links links">
+						<!-- БЕМ елемент БЕМ блоку links з БЕМ модифікатором в активному стані -->
+						<a href="#" class="links__item links__item_active">Experienced Tutors</a>
+						<!-- БЕМ елемент БЕМ блоку links з БЕМ модифікатором (для того щоб додати бекграундом іконку) -->
+						<a href="#" class="links__item links__item_like">Feedback & Support</a>
+						<!-- БЕМ елемент БЕМ блоку links з БЕМ модифікатором (для того щоб додати бекграундом іконку) -->
+						<a href="#" class="links__item links__item_library">24/7 Online Library</a>
+						<!-- БЕМ елемент БЕМ блоку links з БЕМ модифікатором (для того щоб додати бекграундом іконку) --> 
+						<a href="#" class="links__item links__item_chat">Community</a>
+					</div>
+					<!-- БЕМ елемент БЕМ блоку benefits -->
+					<div class="benefits__about">
+						<!-- БЕМ елемент БЕМ блоку benefits -->
+						<h3 class="benefits__title">
+							Only practicing tutors
+						</h3>
+						<!-- БЕМ елемент БЕМ блоку benefits -->
+						<p class="benefits__text">
+							Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+						</p>
+					</div>
+					<!-- БЕМ елемент БЕМ блоку benefits -->
+					<div class="benefits__pic">
+						<img src="img/icons/illustration.svg" alt="boy and girl are sitting at the table with a computer">
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<!-- БЕМ блок -->
+	<footer class="footer"></footer>
+</body>
+</html>
